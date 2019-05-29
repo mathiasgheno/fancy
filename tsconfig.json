@@ -1,13 +1,17 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["es5", "es6", "dom"],
+    "lib": ["es5", "es6", "dom", "es7", "es2017"],
+    "moduleResolution": "node",
     "jsx": "react",
     "sourceMap": true,
+    "rootDirs": ["src", "stories"],
     "outDir": "lib",
+    "baseUrl": "src",
     "declaration": true
   },
   "include": [
-    "src"
-  ]
+    "src/**/*"
+  ],
+  "exclude": ["node_modules", "build", "scripts"]
 }
