@@ -35,6 +35,7 @@
     "react": ">=16.0.0"
   },
   "dependencies": {
-    "awesome-typescript-loader": "^5.2.1"
+    "awesome-typescript-loader": "^5.2.1",
+    "react-markdown": "^4.0.8"
   }
 }
