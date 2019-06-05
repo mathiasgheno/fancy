@@ -14,13 +14,21 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^5.0.11",
     "@storybook/addon-links": "^5.0.11",
     "@storybook/addons": "^5.0.11",
     "@storybook/react": "^5.0.11",
+    "@types/jest": "^24.0.13",
     "@types/react": "^16.8.18",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
+    "jest": "^24.8.0",
     "react": "^16.8.6",
+    "react-test-renderer": "^16.8.6",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.4.5"
   },
   "peerDependencies": {
