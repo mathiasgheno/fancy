@@ -5,7 +5,10 @@ import * as React from "react";
 import {Fancy} from "../src";
 
 storiesOf('About Fancy Boilerplate', module)
-    .add('with text', () => <ReactMarkdown source={require('../README.md')} />);
+    .add('Introduction', () => <div>
+        <ReactMarkdown source={require('../README.md').default} />
+    </div>);
+
 
 storiesOf('Button', module)
   .add('with text', () => <Fancy texto={"funciona"}/>);
