@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/react';
 import * as ReactMarkdown from 'react-markdown';
 import * as React from "react";
 
-import {Fancy} from "../src";
+import {Fancy} from "./index";
 
 storiesOf('About Fancy Boilerplate', module)
     .add('Introduction', () => <div>

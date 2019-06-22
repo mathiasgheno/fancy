@@ -6,6 +6,7 @@
   "description": "testando npm link para react components",
   "scripts": {
     "build": "tsc -p .",
+    "test": "jest",
     "start": "npm run build -- -w",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
