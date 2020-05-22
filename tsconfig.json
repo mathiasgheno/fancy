@@ -13,5 +13,14 @@
   "include": [
     "src/**/*"
   ],
-  "exclude": ["node_modules", "build", "scripts"]
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "src/**/*.spec.ts",
+    "src/**/*.spec.tsx",
+    "src/**/*.test.tsx",
+    "src/**/*.test.ts",
+    "src/**/*.stories.tsx"
+  ]
 }
