@@ -1,7 +1,7 @@
 # Fancy Boilerplate
 
-This project make posible the development of one Design System for your front-end project. 
-It uses Storybook for documentation, React and TypeScript for development and Jest for testing. 
+This project make posible the development of one Library of components for your front-end project. 
+It uses Storybook for documentation, React and TypeScript for development and Jest + React Testing Librart for testing. 
 
 ## Scripts
 
@@ -9,6 +9,12 @@ Install all dependencies:
 
 ```
 npm install
+```
+
+Generate the library:
+
+```
+npm build
 ```
 
 Init the development environment:

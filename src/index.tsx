@@ -4,7 +4,7 @@ interface IFancy {
     texto: string;
 }
 
-export const Fancy: React.FunctionComponent<IFancy> = (props) => {
+export const Fancy: React.FC<IFancy> = (props) => {
     return (
         <h1>{props.texto} é o melhor</h1>
     )
