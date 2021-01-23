@@ -1,4 +1,4 @@
-import { Fancy } from './index';
+import Fancy from './Fancy';
 import * as React from 'react';
 import { Meta } from "@storybook/react/types-6-0";
 

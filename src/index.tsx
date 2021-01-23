@@ -1,11 +1,5 @@
-import * as React from 'react';
+import Fancy from './Fancy/Fancy';
 
-interface IFancy {
-    texto: string;
+export default {
+  Fancy,
 }
-
-export const Fancy: React.FC<IFancy> = (props) => {
-    return (
-        <h1>{props.texto} é o melhor</h1>
-    )
-};
