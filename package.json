@@ -1,6 +1,6 @@
 {
   "name": "fancy",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "lib",
   "types": "lib",
   "description": "Boilerplate para biblioteca de components com styledcomponent, react, typescript e storybook",
